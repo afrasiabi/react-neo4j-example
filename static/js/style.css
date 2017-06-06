@@ -1,0 +1,60 @@
+ @font-face {
+  font-family: HelveticaNeue;
+  src:url("./assets/fonts/HelveticaNeueLTStd-Lt.otf");
+}
+@font-face {
+  font-family: HelveticaNeueLight;
+  src:url("./assets/fonts/HelveticaNeueLTStd-Md.otf");
+} 
+body, html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: HelveticaNeueLight; }
+  body input, html input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px; }
+  body .login, html .login {
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px; }
+
+p {
+  text-align: center; }
+
+span {
+  text-align: center; }
+
+.jumbotron {
+  text-align: center; }
+
+.signup {
+  background-color: grey;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px; }
+
+.commentBox {
+  background-color: grey;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px; }
+
+.button {
+  border-style: groove;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #318480; }
+
+.cmnt {
+  text-align: left; }
+  .cmnt .mige {
+    font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
